@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on ntec.io - tech &amp; programming</title>
+    <link>https://ntec.io/blog/</link>
+    <description>Recent content in Blogs on ntec.io - tech &amp; programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 20 Aug 2020 17:06:12 +0200</lastBuildDate>
+    
+	<atom:link href="https://ntec.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://ntec.io/blog/hello-world/</link>
+      <pubDate>Thu, 20 Aug 2020 17:06:12 +0200</pubDate>
+      
+      <guid>https://ntec.io/blog/hello-world/</guid>
+      <description>bla bla text 132</description>
+    </item>
+    
+  </channel>
+</rss>
