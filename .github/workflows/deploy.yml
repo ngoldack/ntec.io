@@ -42,7 +42,7 @@ jobs:
             port: ${{ secrets.PORT }}
             key: ${{ secrets.KEY }}
             source: "public/*"
-            target: "public"
+            target: "/opt/docker/ntec.io/public"
 
       - name: Starting container
         uses: appleboy/ssh-action@master
