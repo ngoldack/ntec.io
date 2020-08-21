@@ -44,7 +44,7 @@ jobs:
             password: ${{ secrets.PASSWORD }}
             #key: ${{ secrets.KEY }}
             source: "public/*"
-            target: "/opt/docker/ntec.io/public"
+            target: "/opt/docker/ntec.io"
 
       - name: Starting container
         uses: appleboy/ssh-action@master
@@ -54,4 +54,4 @@ jobs:
             password: ${{ secrets.PASSWORD }}
             #key: ${{ secrets.KEY }}
             port: ${{ secrets.PORT }}
-            script: docker-compose up -d
+            script: docker-compose -f /opt/docker/ntec.io/docker-compose.yml up -d
