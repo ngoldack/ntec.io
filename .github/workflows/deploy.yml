@@ -30,7 +30,8 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             port: ${{ secrets.PORT }}
-            key: ${{ secrets.KEY }}
+            password: ${{ secrets.PASSWORD }}
+            #key: ${{ secrets.KEY }}
             source: "docker-compose.yml"
             target: "/opt/docker/ntec.io"
 
